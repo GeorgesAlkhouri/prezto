@@ -48,6 +48,12 @@ path=(
   $path
 )
 
+
+fpath=(
+  ~/.autoload
+  $fpath
+)
+
 #
 # Less
 #

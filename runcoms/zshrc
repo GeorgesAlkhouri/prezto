@@ -24,8 +24,8 @@ export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
 
 alias i='arch -x86_64'
 
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#autoload functions are defined in ~/.autoload
+autoload -Uz pyenv
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
