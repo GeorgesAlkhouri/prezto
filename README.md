@@ -21,6 +21,10 @@ version is 4.3.11.
 
      ```console
      git clone --recursive git@github.com:GeorgesAlkhouri/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+     
+     # or
+     
+     git clone --recursive https://github.com/GeorgesAlkhouri/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
      ```
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
