@@ -6,6 +6,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 " tell vim to yank to system clipboard
 set clipboard=unnamed
+" enable syntax highlighting
+syntax on
 
 call vundle#begin()
 
